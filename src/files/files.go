@@ -14,7 +14,7 @@ func uploadFiles(request http.Request, response http.ResponseWriter) {
 		fmt.Println("File Name: ", file.Filename)
 		fmt.Println("File Size: ", file.Size)
 		fmt.Println("File Type: ", file.Header.Get("Content-Type"))
-		fmt.Println("--------------------------")
+		fmt.Println("---------------------------------------------")
 	}
 
 }
